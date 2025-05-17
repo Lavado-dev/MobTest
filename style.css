@@ -58,15 +58,18 @@ textarea {
 @media (max-width: 800px) {
   .form-group {
     min-width: 100%;
+    overflow: hidden;
   }
 
   .row {
     display: flex;
     flex-direction: column;
     width: 100%;
+    overflow: hidden;
   }
 
   form {
     height: 450px;
+    overflow: hidden;
   }
 }
